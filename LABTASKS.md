@@ -77,10 +77,10 @@ Before you actually start _coding_ on any part of the lab, you
 should spend some time using issues and GitHub Projects to capture and estimate
 issues and do some planning.
 
-1. [ ] Go to the `Issues` tab for your repository
-2. [ ] Near the green `New issue` button, there is a button-like thing that says `Milestones` (click it)
-3. [ ] Click the green `New milestone` button
-4. [ ] Create a milestone for the lab that uses the lab's due date
+1. [x] Go to the `Issues` tab for your repository
+2. [x] Near the green `New issue` button, there is a button-like thing that says `Milestones` (click it)
+3. [x] Click the green `New milestone` button
+4. [x] Create a milestone for the lab that uses the lab's due date
    1. If you'd like to make multiple, smaller milestones, you may do so
    2. You can write in other information if you'd like, but at least include the one milestone for the lab's due date
 
@@ -90,10 +90,10 @@ Once you have created a milestone, you will be ready to create a GitHub Projects
 > or refactoring. Those activities should be "baked in" to your work flow, and not considered
 > separate (and therefore to some degree optional) activities.
 
-1. [ ] Click the `Projects` tab on your GitHub repository
-2. [ ] Use the green dropdown by the button to make that button read
+1. [x] Click the `Projects` tab on your GitHub repository
+2. [x] Use the green dropdown by the button to make that button read
        `New project` (then, click `New project`)
-3. [ ] In the popup dialog, choose the `Feature release` template and then
+3. [x] In the popup dialog, choose the `Feature release` template and then
        click the green `Create` button
 
 The view that you see will have several views, each focused on a

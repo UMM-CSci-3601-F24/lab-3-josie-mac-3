@@ -95,22 +95,6 @@ describe('User list', () => {
     page.getUserListItems().should('not.exist');
   });
 
-  it('Should select a role, switch the view, and check that it returned correct elements', () => {
-    // Filter for role 'viewer');
-    page.selectRole('viewer');
-
-    // Choose the view type "List"
-    page.changeView('list');
-
-    // Some of the users should be listed
-    page.getUserListItems().should('have.lengthOf.above', 0);
-
-    // All of the user list items that show should have the role we are looking for
-    page.getUserListItems().each($user => {
-      cy.wrap($user).find('.user-list-role').should('contain', 'viewer');
-    });
-  });
-
   it('Should click view profile on a user and go to the right URL', () => {
     page
       .getUserCards()

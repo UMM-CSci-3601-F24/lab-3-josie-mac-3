@@ -27,4 +27,9 @@ public class Todo {
   public boolean status;
   public String body;
   public String category;
+
+  @Override
+  public String toString() {
+    return body;
+  }
 }
