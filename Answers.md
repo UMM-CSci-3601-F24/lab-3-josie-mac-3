@@ -28,5 +28,16 @@
     It returns all elements that are app-user-cards that are contained in user-card-containers 
   d.
     It uses .find('.user-card-name'), which just finds the name attached to the card.
+#5
+  We filtered the owner on the server because it was something that wouldn't be used in quick succession as well as sorted todos because there was an already implemented mehod for it
+  We filtered by category because I feel as if that is some that would be changing much more frequently
+#6
+  We made sure that we were testing simply that the components existed mostly, we had a hard time with getting much else to work.
+  We also tested the data within the profiles to make sure that they were accurate.
+  We were testing the profile cards
+#7
+  We tested the functionallities for typing and filtering todos, we also tested clicking into the profiles and ensuring that the information was correct
+  We tested these because they are the main functionallity of the app
+
 
 
